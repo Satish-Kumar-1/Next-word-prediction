@@ -5,15 +5,14 @@ This project implements a **Next Word Prediction** model using **Natural Languag
 
 ## Features
 - Preprocessing of text data (tokenization, cleaning, padding).
-- Use of **Word Embeddings** (e.g., Word2Vec, GloVe, or Transformer embeddings).
-- Training a **Neural Network** model (e.g., LSTM, GRU, or Transformer-based model).
+- Training a **Neural Network** model.
 - Model evaluation and testing on sample sentences.
 - Interactive user input for real-time word prediction.
 
 ## Requirements
 To run this notebook, install the following dependencies:
 ```bash
-pip install numpy pandas tensorflow keras nltk
+pip install numpy pandas tensorflow keras nltk torchtext
 ```
 
 ## Usage
@@ -26,9 +25,7 @@ pip install numpy pandas tensorflow keras nltk
 
 ## Dataset
 The model requires a large corpus of text data. You can use datasets like:
-- Wikipedia corpus
-- OpenSubtitles dataset
-- Custom text data
+- Custom text data (human-chat.txt)
 
 ## Future Improvements
 - Implementing transformer-based models like **GPT** for better predictions.
